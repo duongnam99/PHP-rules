@@ -47,4 +47,16 @@
     - phải có một dòng trống sau namespace và use
     - một dòng nên có ít hơn 80 kí tự
     - abstract và final phải khai báo trước, static khai báo sau   
-...
+- PSR-4: tiêu chuẩn viết autoload
+    - \<NamespaceName>(\<SubNamespaceNames>)*\<ClassName>
+    - tên xác định đầy đủ phải có 1 namespace gốc
+    - có thể có 1 hoặc nhiều namespace con 
+    - phải có 1 tên lớp kết thúc
+- PSR-7: chuẩn giao diện thông điệp:
+
+# PHP design pattern 
+Có 23 mẫu được chia làm 3 loại :
+
+- Creational Patterns (Mẫu tạo lập) : Được sử dụng để tạo các đối tượng sao cho chúng có thể tách khỏi hệ thống triển khai  của chúng
+- Structural Patterns (Mẫu cấu trúc) : Để tạo cấu trúc các đối tượng lớn giữa nhiều đối tượng khác nhau
+- Behavioral Patterns (Mẫu hành vi) : Được sử dụng để quản lý các thuật toán, mối liên kết và ràng buộc giữa các đối tượng
